@@ -1,0 +1,15 @@
+.search-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #1876d2;
+    height: 39px;
+    width: 50px;
+    margin-left: -13px;
+    border: 0px;
+    margin-right: -13px;
+}
+.search-icon button svg {
+    color: white !important;
+}
