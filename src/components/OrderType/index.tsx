@@ -12,7 +12,7 @@ const OrderTypeDropDown = ({ selectedType, setSelectedType, noneOption = true, w
 
     return (
         <div>
-            <FormControl sx={{ p: 0, width }} size="small">
+            <FormControl sx={{ p: 0, width: { xs: "100%", md: width, lg: width } }} size="small">
                 <InputLabel id="orderTypeDropdown">Order Type</InputLabel>
                 <Select
                     labelId="orderTypeDropdown"
